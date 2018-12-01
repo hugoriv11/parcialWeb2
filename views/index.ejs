@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin de Imanes</title>
+</head>
+<body>
+    <div>
+        <form action="/api/Imanes" method="post" name="formRegistrar" id="formRegistrar">
+            <input type="text" name="forma" id="forma"> Forma
+            <input type="text" name="color" id="color"> Color
+            <input type="text" name="intensidad" id="intensidad"> Intensidad
+        </form>
+    </div>
+
+    <!--formUpdate-->
+    <div>
+        <form action="" method="post" name="formUpdate" id="formUpdate">
+            <div class="modal-body">
+                <input type="hidder" name="_id" id="forma"> Forma
+                <input type="text" name="formaU"> Forma
+                <input type="text" name="colorU"> Color
+                <input type="text" name="intensidadU"> Intensidad
+            </div>
+            <div class="modal-footer">
+                <input type="button" value="Close" data-dismis="modal">
+                <input type="submit" value="Actualizar">
+            </div>
+        </form>
+    </div>
+
+    <script src="javascripts/main.js"></script>
+</body>
+</html>
