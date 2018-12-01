@@ -31,6 +31,23 @@
         </form>
     </div>
 
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>${element.forma}</td>
+                <td>
+                    <a href="/api/Imanes${element._id}" data-toggle="modal">Actualizar</a>
+                    <a href="/api/Imanes${element._id}" data-toggle="modal">Eliminar</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
     <script src="javascripts/main.js"></script>
 </body>
 </html>
